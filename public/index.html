@@ -1,0 +1,36 @@
+<!doctype html>
+<!-- basic html for our form -->
+<html lang="en">
+  <head>
+    <!-- some basic stuff for a html page -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>save canvas</title>
+    <meta name="description" content="saving canvas">
+    <meta name="author" content="fabiantheblind">
+    <!-- hide the text field we use to submit the data -->
+    <style type="text/css">
+    .hidden{
+    display: none;
+    }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- include jquery from CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  </head>
+  <body>
+  <!-- the canvas to draw on -->
+    <canvas id="foo" width="20px" height="20px"></canvas>
+    <!-- our form to submit the data -->
+    <form method="post" action="/save">
+      <!-- this will not be shown -->
+      <input type="text" id="mydata" class="hidden" name="data">
+      <!-- this is for submitting data -->
+      <input type="submit" id="save">
+    </form>
+    <!-- include the script -->
+    <script type="text/javascript" src="main.js">
+    </script>
+  </body>
+</html>

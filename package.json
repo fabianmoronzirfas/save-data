@@ -1,0 +1,15 @@
+{
+  "name": "save-data",
+  "version": "1.0.0",
+  "description": "how to save data from the frontend to the backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fabiantheblind",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  }
+}
